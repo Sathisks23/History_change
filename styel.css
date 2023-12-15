@@ -1,0 +1,57 @@
+body{
+    background-color: #F1F5F8;
+
+}
+
+
+.container{
+    
+   width: 600px;
+    margin:0 auto;
+    text-align: center;
+    
+}
+.indiv{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    background-color: azure;
+}
+.indiv>*{
+    width: 50%;
+}
+.buttons>*{
+   width:33.333%;
+}
+
+.buttons{
+    display: flex;
+    
+}
+button{
+    background-color: #dae2ec;
+    border: none;
+    padding: 10px;
+}
+button:hover{
+    background-color: #EDF6FD;
+    color:cadetblue;
+    cursor: pointer;
+}
+
+.active{
+    background-color: white;
+}
+.content{
+    background-color: #F1F5F8;
+}
+
+p{
+
+    font-size: 14px;
+    
+}
+
+.nohover{
+    pointer-events:none;
+}
